@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kemal Ahmed Gobe | Portfolio</title>
+  <title>Kemal Ahmed Gobe Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- Header + Menu -->
 <header>
   <nav>
     <h1>Kemal Ahmed Gobe</h1>
@@ -16,20 +18,31 @@
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <div class="language-toggle">
+      <button onclick="setLanguage('en')">English</button>
+      <button onclick="setLanguage('om')">Afaan Oromo</button>
+    </div>
   </nav>
 </header>
-<header>
-  <h1>Kemal Ahmed Gobe</h1>
-  <p>Water Resources & Hydraulics Engineer | Asella-Sagure WSS Enterprise</p>
-</header><section id="hero">
+
+<!-- Hero Section -->
+<section id="hero">
   <h2>Hello, I’m Kemal Ahmed Gobe</h2>
-  <p>Hydraulics & Water Resources Engineer</p>
-</section><section id="about">
+  <p>Hydraulics & Water Resources Engineer | Data & AI Enthusiast</p>
+  <img src="images/kemal.jpg" alt="Kemal Ahmed Gobe" class="hero-img">
+  <a href="Kemal_CV.pdf" download>
+    <button>Download My CV</button>
+  </a>
+</section>
+
+<!-- About Section -->
+<section id="about">
   <h2>About Me</h2>
-  <p>
-    I am a Hydraulics and Water Resources Engineer working at
-    Asella-Sagure Water Supply and Sewerage Services Enterprise.
-  </p><section id="skills">
+  <p>I am a Hydraulics and Water Resources Engineer working at Asella-Sagure Water Supply and Sewerage Services Enterprise.</p>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
   <h2>Skills</h2>
   <div class="skills-container">
     <div class="skill-card">
@@ -46,20 +59,9 @@
     </div>
   </div>
 </section>
-</section>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <p>
-    HTML, CSS, AutoCAD, WaterCAD, HEC-RAS, ArcGIS, Python
-  </p>
-</section>
-
+<!-- Projects Section -->
 <section id="projects">
-  <h2>Projects</h2>
-  <p>
-    Water supply & sanitation design, data analysis, AI projects
-  </p><section id="projects">
   <h2>Projects</h2>
   <div class="projects-container">
     <div class="project-card">
@@ -76,89 +78,27 @@
     </div>
   </div>
 </section>
-</section>
 
+<!-- Contact Section -->
 <section id="contact">
   <h2>Contact</h2>
-  <p>
-    Email: kemalahmedgobe1@gmail.com
-  </p>
+  <p>Email: kemalahmedgobe1@gmail.com</p>
 </section>
 
-<section id="personal">
-  <h2>Personal Information</h2>
-  <ul>
-    <li>Name: Kemal Ahmed Gobe</li>
-    <li>Address: Digaluna Xijo Woreda, Arsi Zone, Oromia, Ethiopia</li>
-    <li>Sex: Male</li>
-    <li>Date of Birth: December 18, 1996 G.C.</li>
-    <li>Marital Status: Married</li>
-    <li>Nationality: Ethiopian</li>
-    <li>Mobile: +251-9-41-09-65-71</li>
-    <li>Email: <a href="mailto:kemalahmedgobe1@gmail.com">kemalahmedgobe1@gmail.com</a></li>
-  </ul>
-</section>
-
-<section id="education">
-  <h2>Education</h2>
-  <ul>
-    <li>BSc in Hydraulic and Water Resources Engineering – Haramaya University (2022)</li>
-    <li>Udacity Nanodegree: Data Analysis Fundamentals (2025)</li>
-    <li>Udacity Nanodegree: AI Fundamentals (2025)</li>
-    <li>Secondary and Preparatory School Certificates – Digelu & Sagure</li>
-  </ul>
-</section>
-
-<section id="experience">
-  <h2>Work Experience & Awards</h2>
-  <ul>
-    <li>Four years working at Asella-Sagure WSS Enterprise, Digalu Branch</li>
-    <li>Two months internship at Arsi Zone Water and Energy Resource Development Bureau 2021</li>
-    <li>Certificates: Appreciation, Student Association, Employability & Job Readiness, Community Service</li>
-  </ul>
-</section>
-
-<section id="skills">
-  <h2>Skills & Computer Proficiency</h2>
-  <ul>
-    <li>Basic computer skills</li>
-    <li>Engineering Software: AUTO CAD, WATERCAD, HEC-RAS, ArcGIS</li>
-    <li>Microsoft Office: Excel, Word, PowerPoint</li>
-    <li>Programming: C++, Python</li>
-    <li>Data Analysis & Visualization</li>
-    <li>Numerical Analysis and Design Projects</li>
-    <li>Excel Modeling, Manipulating Data</li><section id="projects">
-  <h2>Engineering Projects</h2>
-
-  <div class="project">
-    <h3>G+1 Mosque design and Supervise Mosques, House Water Supply & Sanitation Design</h3>
-    <p>Plumbing layout, septic tank, soak pit and water supply design.</p>
-  </div>
-
-  <div class="project">
-    <h3>Integrated Water Project </h3>
-    <p>Watershed management and small-scale irrigation project.</p>
-  </div>
-
-  <div class="project">
-    <h3>Data Analysis & AI Projects</h3>
-    <p>Udacity Nanodegree projects using Python and data visualization.</p>
-  </div>
-
-</section>
-  </ul>
-</section>
-
-<section id="contact">
-  <h2>Contact & CV</h2>
-  <a href="Kemal_CV.pdf" download>
-    <button>Download My CV</button>
-  </a>
-</section>
-
+<!-- Footer -->
 <footer>
-  <p>© 2026 Kemal Ahmed Gobe</p>
+  <p>&copy; 2026 Kemal Ahmed Gobe. All rights reserved.</p>
 </footer>
+
+<script>
+function setLanguage(lang) {
+  if(lang === 'om') {
+    alert('Afaan Oromo version will be implemented soon!');
+  } else {
+    alert('English version is active!');
+  }
+}
+</script>
 
 </body>
 </html>
