@@ -15,7 +15,7 @@ header {
 section {
   background: white;
   margin: 15px;
-  padding: 18px;
+  padding: 20px;
   border-radius: 8px;
 }
 
@@ -23,14 +23,23 @@ h2 {
   color: #004d40;
 }
 
-footer {
-  text-align: center;
-  padding: 12px;
-  background: #e0e0e0;
+button {
+  background-color: #004d40;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #00695c;
 }
 
 /* Mobile Friendly */
 @media (max-width: 768px) {
   h1 { font-size: 24px; }
   h2 { font-size: 18px; }
+  section { padding: 15px; margin: 10px; }
 }
