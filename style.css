@@ -72,4 +72,33 @@ button:hover {
   h1 { font-size: 24px; }
   h2 { font-size: 18px; }
   section { padding: 15px; margin: 10px; }
+}#hero {
+  background-color: #e0f2f1;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#hero h2 {
+  font-size: 28px;
+  color: #004d40;
+}
+
+#hero p {
+  font-size: 18px;
+  color: #00695c;
+  margin-bottom: 20px;
+}
+
+#hero button {
+  background-color: #004d40;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#hero button:hover {
+  background-color: #00695c;
 }
