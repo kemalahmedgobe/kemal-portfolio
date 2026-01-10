@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kemal Ahmed Gobe Portfolio</title>
+  <title>Kemal Ahmed Gobe | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Header + Menu -->
+<!-- HEADER -->
 <header>
   <nav>
     <h1>Kemal Ahmed Gobe</h1>
@@ -17,86 +16,59 @@
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li><a href="Kemal_CV.pdf" download>CV</a></li>
     </ul>
-    <div class="language-toggle">
-      <button onclick="setLanguage('en')">English</button>
-      <button onclick="setLanguage('om')">Afaan Oromo</button>
-    </div>
   </nav>
 </header>
 
-<!-- Hero Section -->
+<!-- HERO -->
 <section id="hero">
-  <img src="images/kemal.jpg" alt="Kemal Ahmed Gobe" class="profile-img">
-  <h2>Hello, I’m Kemal Ahmed Gobe</h2>
-  <p>Hydraulics & Water Resources Engineer | Data & AI Enthusiast</p>
-  <a href="Kemal_CV.pdf" download class="btn">Download My CV</a>
+  <img src="images/kemal.jpg">
+  <h2>Hydraulics & Water Resources Engineer</h2>
+  <p>Water Supply • Sanitation • Data Analysis • AI Fundamentals</p>
 </section>
 
-<!-- About Section -->
+<!-- ABOUT -->
 <section id="about">
   <h2>About Me</h2>
-  <p>I am a Hydraulics and Water Resources Engineer working at Asella-Sagure Water Supply and Sewerage Services Enterprise.</p>
+  <p>
+    I am a Hydraulics and Water Resources Engineer working at
+    Asella-Sagure Water Supply and Sewerage Services Enterprise.
+  </p>
 </section>
 
-<!-- Skills Section -->
+<!-- SKILLS -->
 <section id="skills">
   <h2>Skills</h2>
-  <div class="skills-container">
-    <div class="skill-card">
-      <h3>HTML & CSS</h3>
-    </div>
-    <div class="skill-card">
-      <h3>AutoCAD & WaterCAD</h3>
-    </div>
-    <div class="skill-card">
-      <h3>HEC-RAS & ArcGIS</h3>
-    </div>
-    <div class="skill-card">
-      <h3>Python & Data Analysis</h3>
-    </div>
-  </div>
+  <ul>
+    <li>HTML & CSS</li>
+    <li>AutoCAD, WaterCAD, HEC-RAS</li>
+    <li>ArcGIS</li>
+    <li>Python & Data Analysis</li>
+    <li>AI Fundamentals</li>
+  </ul>
 </section>
 
-<!-- Projects Section -->
+<!-- PROJECTS -->
 <section id="projects">
   <h2>Projects</h2>
-  <div class="projects-container">
-    <div class="project-card">
-      <h3>G+1 House Water Supply & Sanitation</h3>
-      <p>Complete plumbing and septic design.</p>
-    </div>
-    <div class="project-card">
-      <h3>Integrated Water Project </h3>
-      <p>Watershed management & small-scale irrigation.</p>
-    </div>
-    <div class="project-card">
-      <h3>Data Analysis & AI Projects</h3>
-      <p>Udacity Nanodegree projects using Python.</p>
-    </div>
-  </div>
+  <p>
+    Water supply & sanitation design, hydraulic analysis,
+    data analysis projects, AI fundamentals.
+  </p>
 </section>
 
-<!-- Contact Section -->
+<!-- CONTACT -->
 <section id="contact">
   <h2>Contact</h2>
   <p>Email: kemalahmedgobe1@gmail.com</p>
+  <p>Phone: +251-9-41-09-65-71</p>
 </section>
 
-<!-- Footer -->
+<!-- FOOTER -->
 <footer>
-  <p>&copy; 2026 Kemal Ahmed Gobe. All rights reserved.</p>
+  <p>© 2026 Kemal Ahmed Gobe</p>
 </footer>
-
-<script>
-function setLanguage(lang) {
-  if(lang === 'om') {
-    alert('Afaan Oromo version will be implemented soon!');
-  } else {
-    alert('English version is active!');
-  }
-}
-</script>
 
 </body>
 </html>
