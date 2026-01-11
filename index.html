@@ -5,27 +5,31 @@
   <title>Kemal Ahmed Gobe | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-<!-- HEADER -->
-<header>
-  <nav>
-    <h1>Kemal Ahmed Gobe</h1>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="Kemal_CV.pdf" download>CV</a></li>
-    </ul>
+<script>
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("show");
+}
+</script><body>
+<header class="navbar">
+  <h1 class="logo">Kemal Ahmed Gobe</h1>
+  <a href="Kemal_CV.pdf" class="cv-btn" download>Download CV</a>
+<nav class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <!-- HERO -->
-<section id="hero">
-  <img src="images/kemal.jpg">
+<section class="hero">
+  <img src="images/kemal.jpg" alt="Kemal Ahmed Gobe" class="profile-img">
+
   <h2>Hydraulics & Water Resources Engineer</h2>
-  <p>Water Supply • Sanitation • Data Analysis • AI Fundamentals</p>
+
+  <p class="tagline">
+    Water Supply • Sanitation • Data Analysis • AI Fundamentals
+  </p>
 </section>
 
 <!-- ABOUT -->
@@ -52,10 +56,20 @@
 <!-- PROJECTS -->
 <section id="projects">
   <h2>Projects</h2>
-  <p>
-    Water supply & sanitation design, hydraulic analysis,
-    data analysis projects, AI fundamentals.
-  </p>
+  <div class="project-cards">
+    <div class="card">
+      <h3>Water Supply Design</h3>
+      <p>Design of water supply and sanitation systems.</p>
+    </div>
+    <div class="card">
+      <h3>Hydraulic Analysis</h3>
+      <p>HEC-RAS and WaterCAD based analysis.</p>
+    </div>
+    <div class="card">
+      <h3>Data & AI Projects</h3>
+      <p>Python data analysis and AI fundamentals projects.</p>
+    </div>
+  </div>
 </section>
 
 <!-- CONTACT -->
