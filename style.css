@@ -79,14 +79,15 @@ header {
   padding: 40px 20px;
 }
 
-.profile-img {
-  width: 170px;
-  height: 170px;
+..profile-pic {
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  border: 6px solid #0b4d3c;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto 20px auto;
+  border: 6px solid #0f5132;
+  background-image: url("images/kemal.jpg"); ✅
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
 }
 
 .hero h2 {
